@@ -1,7 +1,10 @@
-import pyopencl as cl, numpy as ny
+import pyopencl as cl, numpy as ny, os
 
 ctx = cl.create_some_context()
-fil = open('dna.seq')
+filename = 'dna.seq'
+f = open(filename)
+fSize = os.path.getsize(filename)
 
-if not fil:
-	exit(1)
+for i in range(fSize):
+	c = f.read(1)
+

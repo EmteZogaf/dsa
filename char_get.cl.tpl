@@ -1,2 +1,2 @@
-		cur[:INDEX:] = txt[offset + :INDEX:];
+        cur[:INDEX:] = txt[offset + :INDEX:];
 

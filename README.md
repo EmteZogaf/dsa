@@ -1,4 +1,4 @@
-dsa
-===
+Pattern Search
+==============
 
-DNA sequence analyzing
+Searching for and counting of given patterns in strings.
